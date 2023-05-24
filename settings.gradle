@@ -6,4 +6,4 @@ include 'spring-web-base'
 include 'spring-web-crud'
 include 'spring-auth'
 include 'spring-jdbctemplate'
-
+include 'spring-transactional'
