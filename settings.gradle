@@ -4,3 +4,6 @@ include 'spring-context-abstract'
 include 'spring-aspect'
 include 'spring-web-base'
 include 'spring-web-crud'
+include 'spring-auth'
+include 'spring-jdbctemplate'
+
