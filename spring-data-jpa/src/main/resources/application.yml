@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5430/test_db
+
+  jpa:
+    generate-ddl: true
+    show-sql: true
+
+    properties:
+      hibernate.format_sql: true
+      enable-lazy-load-no-trans: false
+
+    hibernate:
+      ddl-auto: create-drop

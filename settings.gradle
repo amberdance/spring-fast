@@ -7,3 +7,5 @@ include 'spring-web-crud'
 include 'spring-auth'
 include 'spring-jdbctemplate'
 include 'spring-transactional'
+include 'spring-data-jpa'
+
